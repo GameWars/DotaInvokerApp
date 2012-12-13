@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background" >
+
+    
+       	<ImageView
+   	    android:id="@+id/imageView1"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_above="@+id/text1"
+   	    android:layout_alignLeft="@+id/imageButton2"
+   	    android:layout_marginBottom="52dp"/>
+       	
+    <TextView
+        android:id="@+id/text1"
+    	android:minLines="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text1"
+        android:layout_marginLeft="21dp"
+        android:onClick="onClick"
+        android:src="@drawable/quas"
+        android:background="@null" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButton4"
+        android:layout_alignTop="@+id/imageButton3"
+        android:onClick="onClick"
+        android:src="@drawable/wex"
+        android:background="@null" />
+    
+   	<ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/text1"
+        android:layout_marginRight="24dp"
+        android:onClick="onClick"
+        android:src="@drawable/exort"
+        android:background="@null" 
+      />
+   	
+   	    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:onClick="onInvoke"
+        android:src="@drawable/invoke"
+        android:background="@null" />
+
+</RelativeLayout>

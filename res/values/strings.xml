@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">Dota Invoker Trainer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Dota Invoker Trainer</string>
+    <string name="invoke">Invoke</string>
+    <color name="background">#000000</color>
+
+</resources>
